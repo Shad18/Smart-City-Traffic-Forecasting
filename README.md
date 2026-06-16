@@ -1,146 +1,158 @@
-\# 🚦 Smart City Traffic Intelligence System
+🚦 Smart City Traffic Forecasting System
+ 
+Overview
 
+The Smart City Traffic Forecasting System is a Machine Learning project developed to predict vehicle traffic across multiple city junctions using historical traffic data.
 
+The system helps city administrators anticipate traffic peaks, improve traffic management, and support smart city planning initiatives.
 
-\## Overview
+---
 
+## Features
 
+✅ Traffic Volume Prediction
 
-An AI-powered Smart City Traffic Forecasting system that predicts traffic volume at city junctions using Machine Learning and Streamlit.
+✅ Multi-Junction Analysis
 
+✅ Time-Based Traffic Forecasting
 
+✅ Weekend Detection
 
-The project helps city authorities:
+✅ Holiday Detection
 
+✅ Traffic Risk Classification
 
+✅ Interactive Streamlit Dashboard
 
-\- Forecast traffic congestion
+✅ Machine Learning Powered Forecasting
 
-\- Detect peak traffic periods
+---
 
-\- Monitor junction traffic patterns
+Dataset
 
-\- Support traffic management decisions
+The dataset contains traffic information collected from four city junctions.
 
+Features
 
+* DateTime
+* Junction
+* Vehicles
 
-\## Features
+Engineered Features
 
+* Hour
+* Day
+* Month
+* DayOfWeek
+* Weekend Indicator
+* Holiday Indicator
+* Rush Hour Indicator
 
+---
 
-\- Traffic volume prediction
+Exploratory Data Analysis
 
-\- Smart traffic risk scoring
+The project includes:
 
-\- Peak traffic alerts
+* Traffic trend analysis
+* Hourly traffic visualization
+* Junction-wise traffic comparison
+* Weekend vs Weekday analysis
 
-\- Traffic management recommendations
+---
 
-\- Interactive Streamlit dashboard
-
-\- Machine Learning based forecasting
-
-
-
-\## Dataset
-
-
-
-Traffic data collected from 4 city junctions.
-
-
-
-Features include:
-
-
-
-\- Date and Time
-
-\- Junction ID
-
-\- Vehicle Count
-
-
-
-Additional engineered features:
-
-
-
-\- Hour
-
-\- Day of Week
-
-\- Weekend Indicator
-
-\- Holiday Indicator
-
-\- Week of Year
-
-\- Quarter
-
-\- Season
-
-\- Rush Hour
-
-
-
-\## Machine Learning Model
-
-
+Machine Learning Model
+Algorithm
 
 Random Forest Regressor
 
+Performance
 
+| Metric   | Score |
+| -------- | ----- |
+| MAE      | 2.37  |
+| R² Score | 0.969 |
 
-Performance:
+The model achieved high prediction accuracy while maintaining good generalization performance.
 
+---
 
+Streamlit Dashboard
 
-\- MAE: 2.37
+The application allows users to:
 
-\- R² Score: 0.969
+* Select Junction
+* Select Date
+* Select Time
+* Generate Traffic Predictions
 
+The dashboard also provides:
 
+* Traffic Risk Level
+* Traffic Recommendations
+* Predicted Vehicle Count
 
-\## Technologies Used
-
-
-
-\- Python
-
-\- Pandas
-
-\- NumPy
-
-\- Scikit-Learn
-
-\- Streamlit
-
-\- Matplotlib
-
-\- Jupyter Notebook
-
-
-
-\## Project Structure
-
-
-
-```text
+---
+Project Structure
 
 SmartCity/
-
 │
-
 ├── data/
-
-├── models/
-
+│   ├── train.csv
+│   └── test.csv
+│
 ├── notebooks/
-
+│   └── traffic_analysis.ipynb
+│
 ├── app.py
-
 ├── requirements.txt
-
 └── README.md
 
+
+
+Installation
+
+Clone the repository:
+
+git clone https://github.com/Shad18/Smart-City-Traffic-Forecasting.git
+
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+
+Run the application:
+
+
+streamlit run app.py
+
+
+---
+
+Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Scikit-Learn
+* Streamlit
+
+---
+
+## Future Improvements
+
+* Weather Integration
+* Real-Time Traffic Data
+* Deep Learning Models (LSTM)
+* Traffic Congestion Heatmaps
+* Smart Signal Recommendations
+
+---
+
+## Author
+
+Shadrack Ambrose
+
+Machine Learning & Data Science Internship Project
