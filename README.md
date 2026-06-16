@@ -1,6 +1,6 @@
-🚦 Smart City Traffic Forecasting System
- 
-Overview
+# 🚦 Smart City Traffic Forecasting System
+
+## Overview
 
 The Smart City Traffic Forecasting System is a Machine Learning project developed to predict vehicle traffic across multiple city junctions using historical traffic data.
 
@@ -28,17 +28,17 @@ The system helps city administrators anticipate traffic peaks, improve traffic m
 
 ---
 
-Dataset
+## Dataset
 
 The dataset contains traffic information collected from four city junctions.
 
-Features
+### Features
 
 * DateTime
 * Junction
 * Vehicles
 
-Engineered Features
+### Engineered Features
 
 * Hour
 * Day
@@ -50,7 +50,7 @@ Engineered Features
 
 ---
 
-Exploratory Data Analysis
+## Exploratory Data Analysis
 
 The project includes:
 
@@ -61,12 +61,13 @@ The project includes:
 
 ---
 
-Machine Learning Model
-Algorithm
+## Machine Learning Model
+
+### Algorithm
 
 Random Forest Regressor
 
-Performance
+### Performance
 
 | Metric   | Score |
 | -------- | ----- |
@@ -77,7 +78,7 @@ The model achieved high prediction accuracy while maintaining good generalizatio
 
 ---
 
-Streamlit Dashboard
+## Streamlit Dashboard
 
 The application allows users to:
 
@@ -93,8 +94,10 @@ The dashboard also provides:
 * Predicted Vehicle Count
 
 ---
-Project Structure
 
+## Project Structure
+
+```text
 SmartCity/
 │
 ├── data/
@@ -107,30 +110,33 @@ SmartCity/
 ├── app.py
 ├── requirements.txt
 └── README.md
-
-
-
-Installation
-
-Clone the repository:
-
-git clone https://github.com/Shad18/Smart-City-Traffic-Forecasting.git
-
-
-Install dependencies:
-
-pip install -r requirements.txt
-
-
-Run the application:
-
-
-streamlit run app.py
-
+```
 
 ---
 
-Technologies Used
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Shad18/Smart-City-Traffic-Forecasting.git
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the application:
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## Technologies Used
 
 * Python
 * Pandas
