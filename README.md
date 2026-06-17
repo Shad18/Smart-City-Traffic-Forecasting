@@ -1,4 +1,4 @@
-# 🚦 Smart City Traffic Forecasting System
+# 🚦 Smart City Traffic Intelligence System
 
 ## Dashboard Preview
 
