@@ -2,11 +2,11 @@
 
 ## Dashboard Preview
 
-![Dashboard](assets/dashboard.png)
+![Dashboard](assets/dashboard.jpg)
 
 ## Traffic Prediction Example
 
-![Prediction](assets/prediction.png)
+![Prediction](assets/prediction.jpg)
 
 
 ## Overview
