@@ -1,5 +1,14 @@
 # 🚦 Smart City Traffic Forecasting System
 
+## Dashboard Preview
+
+![Dashboard](assets/dashboard.png)
+
+## Traffic Prediction Example
+
+![Prediction](assets/prediction.png)
+
+
 ## Overview
 
 The Smart City Traffic Forecasting System is a Machine Learning project developed to predict vehicle traffic across multiple city junctions using historical traffic data.
@@ -95,6 +104,20 @@ The dashboard also provides:
 
 ---
 
+## Workflow
+
+Dataset
+↓
+Data Preprocessing
+↓
+Feature Engineering
+↓
+Random Forest Model
+↓
+Traffic Prediction
+↓
+Streamlit Dashboard
+
 ## Project Structure
 
 ```text
@@ -156,7 +179,15 @@ streamlit run app.py
 * Smart Signal Recommendations
 
 ---
+## Future Improvements
 
+- Real-time Traffic Data Integration
+- Weather-Based Traffic Forecasting
+- LSTM Deep Learning Models
+- Smart Signal Optimization
+- Traffic Congestion Heatmaps
+
+---
 ## Author
 
 Shadrack Ambrose
