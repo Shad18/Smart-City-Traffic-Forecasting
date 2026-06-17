@@ -176,6 +176,6 @@ streamlit run app.py
 ---
 ## Author
 
-Shadrack Ambrose
+Shadrack A
 
 Machine Learning & Data Science Internship Project
