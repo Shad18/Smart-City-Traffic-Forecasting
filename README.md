@@ -104,20 +104,6 @@ The dashboard also provides:
 
 ---
 
-## Workflow
-
-Dataset
-↓
-Data Preprocessing
-↓
-Feature Engineering
-↓
-Random Forest Model
-↓
-Traffic Prediction
-↓
-Streamlit Dashboard
-
 ## Project Structure
 
 ```text
