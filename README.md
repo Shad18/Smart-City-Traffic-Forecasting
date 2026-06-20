@@ -49,6 +49,12 @@ The system is built as a full-stack Python application: a Scikit-Learn model for
   <img src="assets/dashboard.jpg" width="900">
 </p>
 
+## Prediction demo
+
+<p align="center">
+  <img src="assets/high traffic.jpg" width="900">
+</p>
+
 
 ---
 
