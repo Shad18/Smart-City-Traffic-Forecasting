@@ -43,27 +43,12 @@ The system is built as a full-stack Python application: a Scikit-Learn model for
 
 ---
 
-## Demo
+## Dashboard
 
-> Add a screenshot at `assets/demo.png` and replace this block.
+<p align="center">
+  <img src="assets/dashboard.jpg" width="900">
+</p>
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│  🚦 TrafficIQ  ·  Smart City Traffic Intelligence    ● Online   │
-├──────────────┬──────────────────────────────────────────────────┤
-│ Control Panel│  ┌────────┐ ┌────────┐ ┌────────┐ ┌────────┐   │
-│              │  │  Veh.  │ │ Level  │ │  Risk  │ │  Time  │   │
-│ Junction  ▼  │  │   38   │ │  HIGH  │ │ 76.0%  │ │Rush Hr │   │
-│ Date      📅 │  └────────┘ └────────┘ └────────┘ └────────┘   │
-│ Time      🕐 │                                                  │
-│              │  Congestion Risk ──────────────────────── 76%   │
-│ [Run Forecast│  🟠 High traffic expected — prepare diversions.  │
-│            →]│                                                  │
-│ ─────────── │  Recommendations                                 │
-│ R²   0.969  │  📡 Monitor  🗺 Diversions  ⚙️ Optimise signals  │
-│ MAE  2.37   │                                                  │
-└──────────────┴──────────────────────────────────────────────────┘
-```
 
 ---
 
